@@ -3,7 +3,7 @@ package co.com.icesi.Eshop;
 import co.com.icesi.Eshop.model.*;
 import co.com.icesi.Eshop.model.security.Authorities;
 import co.com.icesi.Eshop.repository.*;
-//import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -22,9 +22,7 @@ public class EShopApplication {
 		SpringApplication.run(EShopApplication.class, args);
 	}
 
-	/*
-
-
+	
 	@Bean
 	CommandLineRunner commandLineRunner(UserRepository userRepository,
 												 RoleRepository roleRepository,
@@ -200,5 +198,4 @@ public class EShopApplication {
 	}
 
 	
-	*/
 }

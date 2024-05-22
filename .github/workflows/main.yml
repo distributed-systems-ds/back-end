@@ -74,7 +74,7 @@ jobs:
       - name: Update values.yml with new tag
         run: |
           cd eshop-deployment/eshop-back
-          sed -i 's/image: .*/image: "danieljaraba/eshop-back:${{ needs.build.outputs.release-tag }}"/' values.yaml
+          sed -i 's|image: danieljaraba/eshop-back:.*|image: danieljaraba/eshop-back:${{ needs.build.outputs.release-tag }}|' values.yaml
           git config --global user.email "${{ secrets.DOCKER_USERNAME }}"
           git config --global user.name "${{ secrets.DOCKER_USERNAME }}"
           git add values.yaml

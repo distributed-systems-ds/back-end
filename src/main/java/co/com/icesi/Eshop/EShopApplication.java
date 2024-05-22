@@ -25,6 +25,7 @@ public class EShopApplication {
 
 
 
+	/*
 	//@Bean
 	CommandLineRunner commandLineRunner(UserRepository userRepository,
 												 RoleRepository roleRepository,
@@ -197,7 +198,7 @@ public class EShopApplication {
 			orderRepository.saveAll(Arrays.asList(orderStore1, orderStore2, orderStore3));
 		};
 
-
+	*/
 	}
 
 	

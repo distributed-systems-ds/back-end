@@ -22,9 +22,7 @@ public class EShopApplication {
 		SpringApplication.run(EShopApplication.class, args);
 	}
 
-	/*
-
-
+	
 	@Bean
 	CommandLineRunner commandLineRunner(UserRepository userRepository,
 												 RoleRepository roleRepository,
@@ -200,5 +198,4 @@ public class EShopApplication {
 	}
 
 	
-	*/
 }
